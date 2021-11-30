@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: '/posts/ssg-ssr',
-        destination: 'https://vercel.com',
+        destination: '/',
         permanent: true,
       },
     ]
