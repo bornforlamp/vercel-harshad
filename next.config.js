@@ -2,7 +2,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/posts/ssg-ssr',
+        source: '/about',
         destination: 'https://vercel.com',
         permanent: true,
       },
