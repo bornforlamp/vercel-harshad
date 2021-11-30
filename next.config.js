@@ -1,0 +1,11 @@
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/posts/ssg-ssr',
+        destination: 'https://vercel.com',
+        permanent: true,
+      },
+    ]
+  },
+}
